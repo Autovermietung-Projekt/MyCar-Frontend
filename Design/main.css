@@ -801,6 +801,7 @@ button {
 
 
         /* MEINE BUCHUNGEN */
+
 .startingimage-meinebuchungen {
     background-image: url(../Bilder/MeineBuchungen.jpeg);
     height: 400px;
@@ -814,26 +815,62 @@ button {
     height: 450px;
     width: 1200px;
     background-color: white;
-    border-radius: 5px;
     box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.2);
     padding: 30px;
     text-align: center;
     position: absolute;
     top: 100px;
-    margin-left: 150px;
+    margin-left: 120px;
 }
+
+.table{
+    height: 390px;
+    width: 1140px;
+    color:#000;
+    text-align: center;
+}
+
+.tableüberschriften{
+    border-color: white;
+    height: 50px;
+    width: 1140px;
+    color:#fff;
+    font-weight: 700;
+    background-color:#99cc00;
+}
+
+.tablehell{
+    border: 1px;
+    height: 40px;
+    width: 1140px;
+    color:#000;
+    text-align: center;
+    background-color:#e5e4e4;
+}
+
+.tabledunkel{
+    border: 1px;
+    height: 40px;
+    width: 1140px;
+    color:#000;
+    text-align: center;
+    background-color:#c8c5c5;
+}
+
 .Buchung {
     position: relative;
     height: 40px;
-    width: 1100px;
+    width: 190px;
+    border-color: #262626;
     border-bottom: 1px solid gray;
     background-color: var(--second-color);
     text-align: left;
     padding: 10px 15px;
-    margin: auto;
+    margin: auto; 
+    float: left;
 }
 
-/* Fahrzeugdetails */
+    /* Fahrzeugdetails */
 .startingimage-fahrzeugdetails {
     background-image: url(../Bilder/Detailseite.jpeg) ;
     height: 400px ;
@@ -928,7 +965,7 @@ button {
 .starting-image-kontakt {
     background-image: url(../Bilder/UnserTeam.jpeg);
     background-size: 100%;
-    height: 300px;
+    height: 400px;
 }
 /* allgemeine Einstellungen für die Seite  */
 .background-kontakt {

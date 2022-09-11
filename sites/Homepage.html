@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="../Design/main.css">
 
-    <title>myCar</title>
+    <title>myCar - Fahrzeugvermietung</title>
 </head>
 
 <body>
@@ -18,7 +18,7 @@
 
      <header>
 
-        <a href="../sites/Homepage.html" class="logo"><h1>mycar.</h1></a> <!-- Logo Navigationsleiste-->
+        <a href="../sites/Homepage.html" ><h1>mycar.</h1></a> <!-- Logo Navigationsleiste-->
 
         <ul class="navbar"> <!-- Anordnung Navigationsleiste mitte-->
             <li><a href="../sites/mietwagen_uebersicht.html">Mietautos</a></li>
@@ -63,7 +63,7 @@
                                 <input type="text" name="" id="" placeholder="Enddatum" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='date'}">
                             </div>
                             <div class="submit"> <!-- Input box -->
-                            <input type="submit" name="" id="" class="submitbutton">
+                            <input type="submit" name="" id="" value="Suchen" class="submitbutton">
                             </div>
                         </form>
 
@@ -99,7 +99,7 @@
             </div>
 
             <div class="uspcontent"> <!-- Einzelnes USP-->
-                <i class="fa-solid fa-leaf icon"></i>
+                <i class="fa-solid fa-leaf icon leaf"></i>
                 <div> Nachhaltig</div>
                 <p>leben, mit unserer neuen E-Flotte</p>
             </div>
@@ -113,13 +113,16 @@
     <!-- Our Fleet-->
     <section class="ourfleet"> <!-- Hintergrund Our Fleet-->
         <h2> Unsere Flotte</h2>
+        
         <div class="gridfleet">   <!-- Anordnung Fahrzeugtypen-->
-                <div class="cartype"></div> <!-- Einzelner Fahrzeugtyp-->
-                <div class="cartype"></div> <!-- Einzelner Fahrzeugtyp-->
-                <div class="cartype"></div> <!-- Einzelner Fahrzeugtyp-->
-                <div class="cartype"></div> <!-- Einzelner Fahrzeugtyp-->
-                <div class="cartype"></div> <!-- Einzelner Fahrzeugtyp-->
-                <div class="cartype"></div> <!-- Einzelner Fahrzeugtyp-->
+            <a href="mietwagen_uebersicht.html">  <div class="cartype"><img src="../Bilder/Limo.jpeg"></div></a> <!-- Einzelner Fahrzeugtyp-->
+            <a href="mietwagen_uebersicht.html">  <div class="cartype"><img src="../Bilder/Suv.jpeg"></div></a> <!-- Einzelner Fahrzeugtyp-->
+            <a href="mietwagen_uebersicht.html">  <div class="cartype"><img src="../Bilder/Cabrio.jpeg"></div></a> <!-- Einzelner Fahrzeugtyp-->
+        </div>
+        <div class="gridfleet"> 
+                <a href="mietwagen_uebersicht.html"><div class="cartype"><img src="../Bilder/Combi.jpeg"></div></a> <!-- Einzelner Fahrzeugtyp-->
+                <a href="mietwagen_uebersicht.html"><div class="cartype"><img src="../Bilder/Coupe.jpeg"></div></a> <!-- Einzelner Fahrzeugtyp-->
+                <a href="mietwagen_uebersicht.html"><div class="cartype"><img src="../Bilder/Mehrsitzer.jpeg"></div></a> <!-- Einzelner Fahrzeugtyp-->
         </div>
     </section>
 

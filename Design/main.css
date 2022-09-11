@@ -159,7 +159,7 @@ header{
 }
 /* Bereich für Popular Pages*/
 .ueberfootercontent_pages {
-    width: 33%;
+    width: 31%;
     height: 200px;
     float: left;
     color: #fff;
@@ -167,7 +167,7 @@ header{
 }
 /* Bereich für Kontakt */
 .ueberfootercontent_kontakt {
-    width: 40%;
+    width: 42%;
     height: 200px;
     float: left;
     color: #fff;
@@ -175,7 +175,7 @@ header{
 }
 /* Bereich für Socialmedia */
 .ueberfootercontent_social {
-    width: 27%;
+    width: 26%;
     height: 200px;
     float: left;
     color: #fff;

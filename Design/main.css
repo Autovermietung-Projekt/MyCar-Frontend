@@ -979,18 +979,30 @@ text-align: center;
 top:100px;
 margin: auto;
 }
+.background-buchungsbestaetigung{
+    height: 500px;
+background-size: 100%;
+background-image: url(../Bilder/Buchungsbestaetigung.jpg);
+width: 1400px;
+margin:50px;
+margin-left: 65px;
+position: absolute;
+overflow: visible;
+}
 .buchungsbestaetigung_feld h3 {
     color:black;
     margin-top: 20px;
 }
 
-
         /* Über uns / Kontakt */
+
 /* startingimage */
 .starting-image-kontakt {
     background-image: url(../Bilder/UnserTeam.jpeg);
     background-size: 100%;
     height: 400px;
+    position: relative;
+    overflow: visible;
 }
 /* allgemeine Einstellungen für die Seite  */
 .background-kontakt {

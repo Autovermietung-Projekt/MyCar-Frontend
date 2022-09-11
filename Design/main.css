@@ -579,7 +579,7 @@ box-sizing: border-box;
 }
 /* veränderung der Buttom, wenn die Maus drüber fährt */
 .mietwagen_uebersicht input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #383737;
 }
 /* CSS für die zurücksetzen Felder */
 .filter-uebersicht a {
@@ -952,7 +952,7 @@ button {
 color: white;
 }
 .buttonbuchung:hover {
-  background: #678901;
+  background: #383737;
   color: white;
 }
 .buttonbuchung:not(:disabled) {

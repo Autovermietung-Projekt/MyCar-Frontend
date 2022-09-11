@@ -477,6 +477,7 @@ footer {
     overflow: visible;  
 }
 
+
 /* Contentbereich */
 /* Hintergrund des Contentbereich*/
 .mietwagen_uebersicht {
@@ -948,7 +949,7 @@ button {
   will-change: transform,opacity;  z-index: 0;
 }
 .buttonbuchung a{
-color: black;
+color: white;
 }
 .buttonbuchung:hover {
   background: #678901;
@@ -963,6 +964,26 @@ color: black;
 .buttonbuchung:disabled {
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
+
+/* BUCHUNGSBESTÄTIGUNG */
+
+.buchungsbestaetigung_feld {
+    height: 300px;
+width: 650px;
+background-color: white;
+box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.2);
+padding: 20px;
+padding-top: 25px;
+position: relative;
+text-align: center;
+top:100px;
+margin: auto;
+}
+.buchungsbestaetigung_feld h3 {
+    color:black;
+    margin-top: 20px;
+}
+
 
         /* Über uns / Kontakt */
 /* startingimage */
@@ -1106,6 +1127,9 @@ color: black;
     background-color: #383737;
   }
 
+ form p {
+    color: black;
+}
         /* Log Out Seite */
 .logout_bereich {
 

@@ -357,7 +357,7 @@ footer {
 /* Unser USP (neu)*/
 .container-usp {
     height: 500px;
-    background-color:#262626;
+    background-color:#383737;
 }
 .container-usp h2 {
     color: #99cc00;
@@ -426,7 +426,7 @@ footer {
 
 /* Unsere Standorte */
 .locations {
-    background-color: #262626;
+    background-color: #383737;
     height: 600px;
     position: relative;
 }
@@ -474,7 +474,7 @@ footer {
 /* Contentbereich */
 /* Hintergrund des Contentbereich*/
 .mietwagen_uebersicht {
-        background-color: #262626;
+        background-color: #383737;
         height: 1000px;
         position: relative;
 }
@@ -807,7 +807,7 @@ button {
     height: 400px;
 }
 .background-meinebuchungen {
-    background-color: #262626;
+    background-color: #383737;
     height: 600px;
     position: relative;
 }
@@ -876,7 +876,7 @@ button {
     height: 400px ;
 }
 .Fahrzeugdetails {
-        background-color: #262626;
+        background-color: #383737;
         height: 650px;
         position: relative;
 }
@@ -969,7 +969,7 @@ button {
 }
 /* allgemeine Einstellungen für die Seite  */
 .background-kontakt {
-    background-color: #262626;
+    background-color: #383737;
     height: 700px;
     position: relative;
 }

@@ -541,9 +541,7 @@ footer {
     border-width: 5px;
     border-color: #383737;
 }
-/* .filter-uebersicht div {
-  width: 100%;
-} */
+ 
 /*Filter für den Buchungszeitraum*/
 .mietwagen_uebersicht input[type=text]{
   width: 49%;
@@ -558,9 +556,9 @@ footer {
 }
 /* CSS Dropdown Filter */
   .filter-uebersicht select {
-  width: 65% ;
+  width: 55% ;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 0px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;

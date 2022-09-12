@@ -1170,6 +1170,8 @@ overflow: visible;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 /* Attribute für die Namen */
 .texte {

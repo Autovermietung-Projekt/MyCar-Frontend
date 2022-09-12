@@ -673,13 +673,19 @@ box-sizing: border-box;
   font-weight: 850;
   text-align: center;
 }
+
 /* Bild von dem jewaligen Auto */
 .auswahlfeld_img {
-background-image: url(../Bilder/Homepage.jpeg);
+background-image: url(../Bilder/Coupe.jpeg);
 width: 100%;
 height:150px;
 margin-top: 10px;
+background-size: 100%;
+color: #fff;
+position: relative;
+overflow: visible;  
 }
+
 /* Div für den Preis */
 .auswahlfeld_preis {
   float: left;
@@ -905,10 +911,16 @@ button {
 }
 
     /* Fahrzeugdetails */
+
 .startingimage-fahrzeugdetails {
     background-image: url(../Bilder/Detailseite.jpeg) ;
     height: 400px ;
+    background-size: 100%;
+    color: #fff;
+    position: relative;
+    overflow: visible;  
 }
+
 .Fahrzeugdetails {
         background-color: #383737;
         height: 700px;

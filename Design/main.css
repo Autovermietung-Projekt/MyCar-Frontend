@@ -263,6 +263,9 @@ footer {
     color: #fff;
     position: relative;
     overflow: visible;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .startingimage-homepage h1 {
     font-size: 35px;
@@ -502,12 +505,15 @@ footer {
 /* Starting Image */
 .startingimage_mietwagen_uebersicht {
     background-image: url(../Bilder/Produktuebersicht.jpeg);
-    height: 400px ;
+    height: 400px;
     background-size: 100%;
     color: #fff;
-    position: relative;
-    overflow: visible;
+    position: relative;   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 
 
 /* Contentbereich */
@@ -856,6 +862,9 @@ button {
 .startingimage-meinebuchungen {
     background-image: url(../Bilder/MeineBuchungen.jpeg);
     height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .background-meinebuchungen {
     background-color: #383737;
@@ -925,6 +934,9 @@ button {
     color: #fff;
     position: relative;
     overflow: visible;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .Fahrzeugdetails {
@@ -1095,6 +1107,9 @@ overflow: visible;
     height: 400px;
     position: relative;
     overflow: visible;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 /* allgemeine Einstellungen für die Seite  */
 .background-kontakt {

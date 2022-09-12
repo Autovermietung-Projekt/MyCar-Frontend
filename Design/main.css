@@ -437,7 +437,10 @@ footer {
     margin-bottom: 12px;
 }
 .cartype {
-    
+    color: #262626;
+    Font-size: 30px;
+    Font-weight: 500px;
+    text-decoration: underline;
     height: 300px;
     width: 300px;
     border: 0px solid var(--main-color);

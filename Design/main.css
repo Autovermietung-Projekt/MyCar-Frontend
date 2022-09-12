@@ -70,7 +70,7 @@ header{
 }
 .navbar {
     display: flex;
-    margin-left: 500px;
+    margin-left: 495px;
     align-items: center;
     position: absolute;
     top: 22px;    
@@ -847,7 +847,7 @@ button {
 }
 .background-meinebuchungen {
     background-color: #383737;
-    height: 600px;
+    height: 700px;
     position: relative;
 }
 .content-box-meinebuchungen {
@@ -858,7 +858,7 @@ button {
     padding: 30px;
     text-align: center;
     position: absolute;
-    top: 100px;
+    top: 150px;
     margin-left: 150px; 
 }
 .table{

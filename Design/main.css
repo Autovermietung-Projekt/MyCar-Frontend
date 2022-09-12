@@ -630,11 +630,11 @@ box-sizing: border-box;
 }
 /* CSS für die divs von den Checkboxen */
 .Klimaanlage {
-  width: 49%;
+  width: 60%;
   float: left;
 }
 .GPS {
-  width: 49%;
+  width: 40%;
   float: right;
 }
 /* CSS für den Auswahlbereich */

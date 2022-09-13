@@ -117,8 +117,6 @@ header{
     font-size: smaller;
     font-weight: 100;
     size: fit-content;
-
-
 }
 .side-navbar-btn  a:hover{
     border-bottom: 0;
@@ -174,7 +172,6 @@ header{
     float: left;
     color: #fff;
     margin-top: 15px;
-
 }
 /* Bereich für Kontakt */
 .ueberfootercontent_kontakt {
@@ -435,6 +432,7 @@ footer {
     height: 300px;
     width: 300px;
 }
+/*Überschrift Unsere Flotte*/
 .ourfleet h2 {
     color: #262626;
     font-size: 25px;
@@ -443,6 +441,7 @@ footer {
     position: relative;
     margin-bottom: 12px;
 }
+/*Divs für Autokategorien*/
 .cartype {
     height: 300px;
     width: 300px;
@@ -480,6 +479,7 @@ footer {
     margin: 80px 200px;
     margin-left: 250px;
 }
+/*Überschrift Unsere Standorte*/
 .locations h2 {
     color: #99cc00;
     font-size: 25px;
@@ -488,6 +488,7 @@ footer {
     position: relative;
     top: 20px;
 }
+/*Slogans*/
 .text-locations {
     width:270px;
     height:300px;
@@ -495,6 +496,7 @@ footer {
     padding-top: 120px;
     float: left;
 }
+/*Position Karte*/
 .maplocation {
     width: 40%;
 }
@@ -503,6 +505,7 @@ footer {
     width: auto;
     transition: 1s;
 }
+/*Hover Karte*/
 .map:hover {
     height: 430px;
     width: auto;

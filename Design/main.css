@@ -448,17 +448,24 @@ footer {
     border: 0px solid var(--main-color);
     transition: 0.5s;
     background-color: white;
-    color: #262626;
-    font-size: 30px;
-    font-weight:900;
-    text-align: center;
-    text-decoration: underline;
     overflow: hidden;
     box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.2);
 }
+/* Überschriften Fahrzeugkategorien */
+.cartypetext {
+    height: 70px;
+    border: 0px solid var(--main-color);
+    transition: 0.5s;
+    background-color: #383737;
+    color: #fff;
+    font-size: 30px;
+    font-weight:900;
+    text-align: center;
+    padding-top: 10px;
+}
 .cartype img{
     position: relative;
-    top: 50px;
+    top: 20px;
     right: 25px;
 }
 .cartype:hover {

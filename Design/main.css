@@ -1,4 +1,4 @@
-/* essentials: werden auf allen Seiten verwendet */
+/* essentials */
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 :root{
     --main-color:#262626 ;
@@ -146,7 +146,7 @@ header{
 }
 /* Farbwechsel bei Mausbewegung über Dropdown content */
  .side-navbar-btn .side-nav-dropdown a:hover {background-color: #ddd;}
-/* Lässt Dropdown erscheinen */
+/* Zeigt Sidebar Dropdown */
     div:hover  .side-nav-dropdown{
         visibility: visible;
         opacity: 1;
@@ -231,7 +231,6 @@ footer {
     height: 70px;
     background-color: #262626 ;
 }
-/* Anordnung Footer content */
 .gridfooter {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -301,7 +300,6 @@ footer {
     position: relative;
     top: 15px;
 }
-/* Filter Input Felder */
 .filter form{
     display: flex;
     align-items: center;
@@ -342,7 +340,7 @@ footer {
 }
 
 
-/* Button für die Filterung der Fahrzeuge*/
+/* Button für die Buchung des Fahrzeuges*/
 .submit {
     flex: 1 1 7rem;
     display: flex;
@@ -372,12 +370,7 @@ footer {
 }
 
 
-<<<<<<< HEAD
-/* Unser USP (neu)*/
-/* Anordnung der einzelnen USPs */
-=======
 /* Unser USP*/
->>>>>>> ecbed9b2d7d2fa26a0ab06ae8f4560100301c335
 .container-usp {
     height: 500px;
     background-color:#383737;
@@ -390,8 +383,6 @@ footer {
     position: relative;
     top: 20px;
 }
-
-/* Einzelne USPs mit Icons */
 .icon {
     font-size: 50px;
     color: #99cc00;
@@ -426,7 +417,6 @@ footer {
     color:black;
     height: 850px;
 }
-/* Anordnung Unsere Flotte */
 .gridfleet {
     margin: auto;
     position: relative;
@@ -451,11 +441,7 @@ footer {
     position: relative;
     margin-bottom: 12px;
 }
-<<<<<<< HEAD
-/* Einzelnen Fahrzeugkategorien */
-=======
 /*Divs für Autokategorien*/
->>>>>>> ecbed9b2d7d2fa26a0ab06ae8f4560100301c335
 .cartype {
     height: 300px;
     width: 300px;
@@ -501,7 +487,6 @@ footer {
     height: 620px;
     position: relative;
 }
-/* Anornung Map und Texte */
 .gridlocations {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -518,11 +503,7 @@ footer {
     position: relative;
     top: 20px;
 }
-<<<<<<< HEAD
-/* Map und Texte */
-=======
 /*Slogans*/
->>>>>>> ecbed9b2d7d2fa26a0ab06ae8f4560100301c335
 .text-locations {
     width:270px;
     height:300px;
@@ -784,7 +765,6 @@ overflow: visible;
 .background {
     background-color: #383737;
 }
-/* Anordnung einzelner Standorte */
 .content-standorte {
     max-width: 1200px;
     height: fit-content;
@@ -796,7 +776,6 @@ overflow: visible;
     margin-bottom: 100px;
     overflow: hidden;
 }
-/* Standorte als klickbare Buttons*/
 button {
     cursor: pointer;
 }
@@ -830,7 +809,6 @@ button {
     scale: 1.1  ;
     overflow: hidden;
 }
-/* Einzelne Standorte */
     .Hamburg {
         background-image: url(../Bilder/Hamburg.jpeg);
         background-size: 100%;
@@ -919,7 +897,6 @@ button {
     height: 700px;
     position: relative;
 }
-/* Meine Buchungen weiße Hintergrundbox */
 .content-box-meinebuchungen {
     height: 450px;
     width: 1200px;
@@ -931,7 +908,6 @@ button {
     top: 150px;
     margin-left: 150px;
 }
-/* Anordnung einzelner Buchungen */
 .table{
     height: 390px;
     width: 1140px;
@@ -962,7 +938,6 @@ button {
     text-align: center;
     background-color:#c8c5c5;
 }
-/* Einzelne Buchung */
 .Buchung {
     position: relative;
     height: 40px;
@@ -989,11 +964,6 @@ button {
     background-position: center;
     background-repeat: no-repeat;
 }
-<<<<<<< HEAD
-
-/* Hintergrund und Überschriften */
-=======
->>>>>>> ecbed9b2d7d2fa26a0ab06ae8f4560100301c335
 .Fahrzeugdetails {
     background-color: #383737;
     height: 700px;
@@ -1014,10 +984,6 @@ button {
     color: black;
     text-align: center;
 }
-<<<<<<< HEAD
-
-/* Anordnung der zwei weißen Hintergrundboxen */
-=======
 .Headline_one {
     color: black;
     font-weight: 600;
@@ -1039,7 +1005,6 @@ button {
     text-align: right;
  font-weight: 800;
 }
->>>>>>> ecbed9b2d7d2fa26a0ab06ae8f4560100301c335
 .griddetails {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1048,7 +1013,6 @@ button {
     align-items: center;
     height: 450px;
 }
-/* weiße Hintergrundbox */
 .box-details {
     height: 500px;
     width: 450px;
@@ -1057,9 +1021,6 @@ button {
     background-color: white;
     box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.2);
 }
-<<<<<<< HEAD
-/* Fahrzeugbild */
-=======
 .spezifikationen {
  height: 500px;
  width: 450px;
@@ -1073,7 +1034,6 @@ button {
     padding: auto;
 }
 /*Bild Auto*/
->>>>>>> ecbed9b2d7d2fa26a0ab06ae8f4560100301c335
 .cartypeimage {
     height: 300px;
     width: 450px;
@@ -1081,11 +1041,7 @@ button {
     background-size: 100%;
     background-image: url(../Bilder/Combi.jpeg);
 }
-<<<<<<< HEAD
-/* Login Hinweis */
-=======
 /*Hinweis Anmeldung notwenig*/
->>>>>>> ecbed9b2d7d2fa26a0ab06ae8f4560100301c335
 .LoginTo {
     width: 350px;
     height: 70px;
@@ -1099,11 +1055,7 @@ button {
     font-size: 12px;
     margin: 0 11% ;
 }
-<<<<<<< HEAD
-/* Buchungsbutton */
-=======
 /* Jetzt buchen! Button */
->>>>>>> ecbed9b2d7d2fa26a0ab06ae8f4560100301c335
 .buttonbuchung {
   background-color:#99cc00;
   color: #fff;
@@ -1138,46 +1090,6 @@ color: white;
 .buttonbuchung:disabled {
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
-/* Fahrzeug Details */
-.spezifikationen {
- height: 500px;
- width: 450px;
- box-sizing: border-box;
- padding: 20px 20px;
-}
-.spezifikationen p{
-    overflow-wrap: break-word;
-    color: #262626;
-    font-size: 16px;
-    padding: auto;
-}
-.Headline_one {
-    color: black;
-    
-    font-weight: 600;
-    font-size: 45px;
-    text-align: center;
-    text-decoration: underline;
-    }
-    
-    .Zeitraum {
-        text-align: center;
-        color: black;
-        font-size: 15px;
-        font-weight: 700;
-    }
-    
-    .Nachricht {
-        font-weight: 500;
-        font-style: italic;
-    
-        }
-    
-    .Preis {
-        text-align: right;
-     font-weight: 800;
-    }
-    
 
 /* BUCHUNGSBESTÄTIGUNG */
 
@@ -1303,7 +1215,6 @@ overflow: visible;
     position: relative;
     top: 70px;
   }
-  /* Hintergrund Bild */
 .background-login {
     height: 500px;
     background-size: 100%;
@@ -1314,7 +1225,6 @@ overflow: visible;
     position: absolute;
     z-index: 1;
   }
-  /* Weiße Login Box */
   .login_feld {
     height: 240px;
     width: 650px;
@@ -1329,7 +1239,6 @@ overflow: visible;
   .login_feld h2{
     padding-top: 0;
 }
-/* Inputfelder Login */
   .login_feld form input[type=text] {
     width: 100%;
     padding: 12px 20px;
@@ -1373,7 +1282,7 @@ overflow: visible;
     position: relative;
     top: 70px;
 }
-/* Hintergrundbild */
+
 .background-logout {
 height: 500px;
 background-size: 100%;
@@ -1384,7 +1293,7 @@ margin-left: 65px;
 position: absolute;
 overflow: visible;
 }
-/* weiße Logout Box */
+
 .logout_feld {
 height: 220px;
 width: 650px;
@@ -1408,7 +1317,7 @@ font-size: 25px;
 font-weight: 850;
 }
 
-/* Logout Button */
+/* Abmelde Bottom */
 
 .logout_feld input[type=submit] {
 width: 100%;
@@ -1434,7 +1343,6 @@ cursor: pointer;
     background-color: #383737;
     margin-top: 70px;
 }
-/* Text Box*/
 .static-content-box {
     width: 85%;
     height: 900px;
@@ -1456,7 +1364,6 @@ cursor: pointer;
 }
 
     /* DATENSCHUTZ */
-    /* Text Box*/
     .static-background-datenschutz {
         height: 1300px !important;
         width:100%;
@@ -1490,7 +1397,6 @@ cursor: pointer;
         background-color: #383737;
         margin-top: 70px;
     }
-    /* Text Box*/
     .static-content-impressum {
     width: 85%;
     height: 200px;

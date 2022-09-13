@@ -373,7 +373,7 @@ footer {
 }
 
 
-/* Unser USP (neu)*/
+/* Unser USP*/
 .container-usp {
     height: 500px;
     background-color:#383737;
@@ -396,6 +396,7 @@ footer {
     margin-right: 50px;
     font-size: 55px;
 }
+/* Divs für Text*/
 .uspcontent {
     width: 500px;
     height: 80px;
@@ -443,12 +444,16 @@ footer {
     margin-bottom: 12px;
 }
 .cartype {
-
     height: 300px;
     width: 300px;
     border: 0px solid var(--main-color);
     transition: 0.5s;
     background-color: white;
+    color: #262626;
+    font-size: 30px;
+    font-weight:900;
+    text-align: center;
+    text-decoration: underline;
     overflow: hidden;
     box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.2);
 }

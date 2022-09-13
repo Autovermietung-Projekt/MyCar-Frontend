@@ -117,8 +117,6 @@ header{
     font-size: smaller;
     font-weight: 100;
     size: fit-content;
-
-
 }
 .side-navbar-btn  a:hover{
     border-bottom: 0;
@@ -174,7 +172,6 @@ header{
     float: left;
     color: #fff;
     margin-top: 15px;
-
 }
 /* Bereich für Kontakt */
 .ueberfootercontent_kontakt {
@@ -360,6 +357,8 @@ footer {
     box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
     cursor: pointer;
     font-size: 1rem;
+    font-weight: 850;
+    color: #fff;
     height: 40px;
     width: 150px;
     overflow: visible;
@@ -368,12 +367,17 @@ footer {
     transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
   }
 .submitbutton:hover {
-    background: #a7dd03;
+    background: #262626;
+    color: #fff;
 }
 
 
+<<<<<<< HEAD
 /* Unser USP (neu)*/
 /* Anordnung der einzelnen USPs */
+=======
+/* Unser USP*/
+>>>>>>> ecbed9b2d7d2fa26a0ab06ae8f4560100301c335
 .container-usp {
     height: 500px;
     background-color:#383737;
@@ -398,6 +402,7 @@ footer {
     margin-right: 50px;
     font-size: 55px;
 }
+/* Divs für Text*/
 .uspcontent {
     width: 500px;
     height: 80px;
@@ -437,6 +442,7 @@ footer {
     height: 300px;
     width: 300px;
 }
+/*Überschrift Unsere Flotte*/
 .ourfleet h2 {
     color: #262626;
     font-size: 25px;
@@ -445,9 +451,12 @@ footer {
     position: relative;
     margin-bottom: 12px;
 }
+<<<<<<< HEAD
 /* Einzelnen Fahrzeugkategorien */
+=======
+/*Divs für Autokategorien*/
+>>>>>>> ecbed9b2d7d2fa26a0ab06ae8f4560100301c335
 .cartype {
-
     height: 300px;
     width: 300px;
     border: 0px solid var(--main-color);
@@ -456,10 +465,30 @@ footer {
     overflow: hidden;
     box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.2);
 }
+/* Überschriften Fahrzeugkategorien */
+.cartypetext {
+    height: 70px;
+    border: 0px solid var(--main-color);
+    transition: 0.5s;
+    background-color: #383737;
+    color: #fff;
+    font-size: 30px;
+    font-weight:900;
+    text-align: center;
+    padding-top: 10px;
+}
 .cartype img{
     position: relative;
-    top: 50px;
+    top: 20px;
     right: 25px;
+}
+.img-hor {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
 }
 .cartype:hover {
     scale: 1.1;
@@ -480,6 +509,7 @@ footer {
     margin: 80px 200px;
     margin-left: 250px;
 }
+/*Überschrift Unsere Standorte*/
 .locations h2 {
     color: #99cc00;
     font-size: 25px;
@@ -488,7 +518,11 @@ footer {
     position: relative;
     top: 20px;
 }
+<<<<<<< HEAD
 /* Map und Texte */
+=======
+/*Slogans*/
+>>>>>>> ecbed9b2d7d2fa26a0ab06ae8f4560100301c335
 .text-locations {
     width:270px;
     height:300px;
@@ -496,6 +530,7 @@ footer {
     padding-top: 120px;
     float: left;
 }
+/*Position Karte*/
 .maplocation {
     width: 40%;
 }
@@ -504,6 +539,7 @@ footer {
     width: auto;
     transition: 1s;
 }
+/*Hover Karte*/
 .map:hover {
     height: 430px;
     width: auto;
@@ -597,8 +633,8 @@ footer {
 /* CSS für Standort Icon (location dot) */
 .Standorte .fa-solid {
     padding-top: 7px;
-    scale: 1.5;
-    color: black;
+    scale: 1.9;
+    color: #99cc00;
     /* padding-left: 40px; */
 }
 /* CSS für Checkboxen */
@@ -614,7 +650,7 @@ box-sizing: border-box;
 .mietwagen_uebersicht input[type=submit] {
   width: 70% ;
   background-color:#99cc00 ;
-  color: black;
+  color: #fff;
   padding: 12px 20px;
   margin: 8px 0;
   border: none;
@@ -948,17 +984,20 @@ button {
     background-size: 100%;
     color: #fff;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+<<<<<<< HEAD
 
 /* Hintergrund und Überschriften */
+=======
+>>>>>>> ecbed9b2d7d2fa26a0ab06ae8f4560100301c335
 .Fahrzeugdetails {
-        background-color: #383737;
-        height: 700px;
-        position: relative;
+    background-color: #383737;
+    height: 700px;
+    position: relative;
 }
 .Fahrzeugdetails h2 {
     margin-bottom: 50px;
@@ -975,8 +1014,32 @@ button {
     color: black;
     text-align: center;
 }
+<<<<<<< HEAD
 
 /* Anordnung der zwei weißen Hintergrundboxen */
+=======
+.Headline_one {
+    color: black;
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+    text-decoration: underline;
+}
+.Zeitraum {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+.Nachricht {
+    font-weight: 500;
+    font-style: italic;
+}
+.Preis {
+    text-align: right;
+ font-weight: 800;
+}
+>>>>>>> ecbed9b2d7d2fa26a0ab06ae8f4560100301c335
 .griddetails {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -994,14 +1057,35 @@ button {
     background-color: white;
     box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.2);
 }
+<<<<<<< HEAD
 /* Fahrzeugbild */
+=======
+.spezifikationen {
+ height: 500px;
+ width: 450px;
+ box-sizing: border-box;
+ padding: 20px 20px;
+}
+.spezifikationen p{
+    overflow-wrap: break-word;
+    color: #262626;
+    font-size: 16px;
+    padding: auto;
+}
+/*Bild Auto*/
+>>>>>>> ecbed9b2d7d2fa26a0ab06ae8f4560100301c335
 .cartypeimage {
     height: 300px;
     width: 450px;
-    background-color: yellow;
     margin: auto;
+    background-size: 100%;
+    background-image: url(../Bilder/Combi.jpeg);
 }
+<<<<<<< HEAD
 /* Login Hinweis */
+=======
+/*Hinweis Anmeldung notwenig*/
+>>>>>>> ecbed9b2d7d2fa26a0ab06ae8f4560100301c335
 .LoginTo {
     width: 350px;
     height: 70px;
@@ -1015,9 +1099,15 @@ button {
     font-size: 12px;
     margin: 0 11% ;
 }
+<<<<<<< HEAD
 /* Buchungsbutton */
+=======
+/* Jetzt buchen! Button */
+>>>>>>> ecbed9b2d7d2fa26a0ab06ae8f4560100301c335
 .buttonbuchung {
   background-color:#99cc00;
+  color: #fff;
+  font-weight:600;
   border-radius: 4px;
   border-style: none;
   box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
@@ -1190,6 +1280,8 @@ overflow: visible;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 /* Attribute für die Namen */
 .texte {

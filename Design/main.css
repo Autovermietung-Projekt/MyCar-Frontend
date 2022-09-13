@@ -1033,13 +1033,15 @@ button {
     font-size: 16px;
     padding: auto;
 }
+/*Bild Auto*/
 .cartypeimage {
     height: 300px;
     width: 450px;
     margin: auto;
     background-size: 100%;
-    background-image: url(../Bilder/Cabrio.jpeg);
+    background-image: url(../Bilder/Combi.jpeg);
 }
+/*Hinweis Anmeldung notwenig*/
 .LoginTo {
     width: 350px;
     height: 70px;

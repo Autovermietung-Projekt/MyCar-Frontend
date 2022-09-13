@@ -588,8 +588,8 @@ footer {
 /* CSS für Standort Icon (location dot) */
 .Standorte .fa-solid {
     padding-top: 7px;
-    scale: 1.5;
-    color: black;
+    scale: 1.9;
+    color: #99cc00;
     /* padding-left: 40px; */
 }
 /* CSS für Checkboxen */
@@ -605,7 +605,7 @@ box-sizing: border-box;
 .mietwagen_uebersicht input[type=submit] {
   width: 70% ;
   background-color:#99cc00 ;
-  color: black;
+  color: #fff;
   padding: 12px 20px;
   margin: 8px 0;
   border: none;

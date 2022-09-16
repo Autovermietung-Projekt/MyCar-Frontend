@@ -64,11 +64,22 @@
 
                 <!-- Dropdownfilter zur Standort Auswahl -->
 
-                <label class="Standorte" for="Standorte"><i class="fa-solid fa-location-dot"></i></label>
+                                <label class="Standorte" for="Standorte"><i class="fa-solid fa-location-dot"></i></label>
                   <select id="Standorte" name="Standorte">
                     <option value="Hamburg">Hamburg</option>
                     <option value="Berlin">Berlin</option>
                     <option value="Leipzig">Bochum</option>
+                    <option value="München">München</option>
+                    <option value="Köln">Köln</option>
+                    <option value="Dortmund">Dortmund</option>
+                    <option value="Bremen">Bremen</option>
+                    <option value="Bielefeld">Bielefeld</option>
+                    <option value="Freiburg">Freiburg</option>
+                    <option value="Paderborn">Paderborn</option>
+                    <option value="Rostock">Rostock</option>
+                    <option value="Dresden">Dresden</option>
+                    <option value="Nürnberg">Nürnberg</option>
+                    <option value="Bochum">Bochum</option>
                   </select>
               </div>
 
@@ -92,65 +103,99 @@
                <div>
                  <label for="Hers">Hersteller</label>
                     <select id="Hers" name="Hersteller">
-                      <option value="Audi">Audi</option>
+                      <option value="alle">alle</option>
                       <option value="BMW">BMW</option>
-                      <option value="Mercedes">Mercedes</option>
+                      <option value="Audi">Audi</option>
+                      <option value="Opel">Opel</option>
+                      <option value="Mercedes-Benz">Mercedes-Benz</option>
+                      <option value="Maserati">Maserati</option>
+                      <option value="Volkswagen">Volkswagen</option>
+                      <option value="Jaguar">Jaguar</option>
+                      <option value="Ford">Ford</option>
+                      <option value="Skoda">Skoda</option>
+                      <option value="Range Rover">Range Rover</option>
+                      <option value="Mercedes-AMG">Mercedes-AMG</option>
                     </select>
                 </div><br>
                 <div>
                   <label for="getriebe">Getriebe</label>
                     <select id="getriebe" name="getriebe">
-                      <option value="schaltung">Schaltung</option>
+                      <option value="alle">alle</option>
+                      <option value="schaltung">Manuell</option>
                       <option value="automatik">Automatik</option>
+                      <option value="ohne">ohne</option>
                     </select>
                 </div><br>
                 <div>
                   <label for="antrieb">Antrieb</label>
                     <select id="antrieb" name="antrieb">
+                      <option value="alle">alle</option>
                       <option value="elektro">Elektro</option>
-                      <option value="benzin">Bezin</option>
-                      <option value="diesel">Diesel</option>
+                      <option value="verbrenner">Verbrenner</option>
                     </select>
                 </div><br>
                 <div>
                   <label for="Typ">Typ</label>
                     <select id="Typ" name="Typ">
+                      <option value="alle">alle</option>
                       <option value="cabrio">Cabrio</option>
                       <option value="suv">SUV</option>
-                      <option value="sportwagen">Sportwagen</option>
+                      <option value="limousine">Limousine</option>
+                      <option value="combi">Combi</option>
+                      <option value="coupe">Coupe</option>
+                      <option value="Mehrsitzer">Mehrsitzer</option>
                     </select>
                 </div><br>
                 <div>
                   <label for="sitze">Sitze</label>
                     <select id="sitze" name="sitze">
+                      <option value="alle">alle</option>
                       <option value="2">2</option>
+                      <option value="3">3</option>
                       <option value="4">4</option>
                       <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
                     </select>
                 </div><br>
                 <div>
                   <label for="türen">Türen</label>
                     <select id="türen" name="türen">
+                      <option value="alle">alle</option>
+                      <option value="2">2</option>
                       <option value="3">3</option>
+                      <option value="4">4</option>
                       <option value="5">5</option>
                     </select>
                 </div><br>
                 <div>
-                  <label for="Farbe">Farbe</label>
-                    <select id="Farbe" name="Farbe">
-                      <option value="rot">Rot</option>
-                      <option value="weiß">Weiß</option>
-                      <option value="Schwarz">Schwarz</option>
+                  <label for="alter">Alter</label>
+                    <select id="alter" name="alter">
+                      <option value="alle">alle</option>
+                      <option value="18">18</option>
+                      <option value="21">21</option>
+                      <option value="25">25</option>
                     </select>
                 </div><br>
                 <div>
-                  <label for="Preis">Preis</label>
+                  <label for="Preis">Preis bis</label>
                     <select id="Preis" name="Preis">
+                      <option value="alle">alle</option>
                       <option value="100">100€</option>
                       <option value="150">150€</option>
                       <option value="200">200€</option>
+                      <option value="250">250€</option>
                     </select>
                 </div><br>
+              <div>
+                <label for="Sortierung">Sortierung</label>
+                  <select id="Sortierung" name="Sortierung">
+                    <option value="preis auf">Preis &uarr;</option>
+                    <option value="preis ab">Preis &darr;</option>
+                    <option value="alphabetisch auf">Alphabetisch &uarr;</option>
+                    <option value="alphabetisch ab">Alphabetisch &darr;</option>
+                  </select>
+              </div><br>
 
                 <!-- Checkboxen als Filter für Klimaanlage und GPS  -->
 

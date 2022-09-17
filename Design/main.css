@@ -440,7 +440,6 @@ footer {
     margin-bottom: 12px;
 }
 .cartype {
-
     height: 300px;
     width: 300px;
     border: 0px solid var(--main-color);
@@ -449,9 +448,23 @@ footer {
     overflow: hidden;
     box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.2);
 }
+.cartypetext{
+    height: 70px;
+    width: 300px;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 12px;
+    border: 0px solid var(--main-color);
+    transition: 0.5s;
+    background-color: #262626;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.2);
+}
 .cartype img{
     position: relative;
-    top: 50px;
+    top: 20px;
     right: 25px;
 }
 .cartype:hover {

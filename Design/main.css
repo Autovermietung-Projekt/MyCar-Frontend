@@ -620,7 +620,7 @@ box-sizing: border-box;
 .mietwagen_uebersicht input[type=submit] {
   width: 100% ;
   background-color:#99cc00 ;
-  color: black;
+  color: white;
   padding: 12px 20px;
   margin: 8px 0;
   border: none;
@@ -1227,7 +1227,7 @@ overflow: visible;
     z-index: 1;
   }
   .login_feld {
-    height: 240px;
+    height: 250px;
     width: 650px;
     background-color: white;
     box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.2);
@@ -1262,6 +1262,8 @@ overflow: visible;
     width: 100%;
     background-color: #99cc00;
     color: white;
+    font-weight: 700;
+    font-size: 20px;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -1324,6 +1326,8 @@ font-weight: 850;
 width: 100%;
 background-color: #99cc00;
 color: white;
+font-weight: 700;
+font-size: 20px;
 padding: 14px 20px;
 margin: 20px 0;
 border: none;
